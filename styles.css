@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
     color: #1a1a1a;           /* Much darker for maximum contrast */
     background: #FFFFFF;      /* Pure white background */
-    font-size: 16px;
+    font-size: 18px;          /* 18px+ as required */
     font-weight: 400;
 }
 
@@ -249,12 +249,15 @@ h4 { font-size: 1.5rem; }
 h5 { font-size: 1.25rem; }
 h6 { font-size: 1rem; }
 
-/* TEXT */
+/* TEXT - EMERGENCY READABILITY & BULLETPROOF DESIGN */
 p {
     color: #2d3748;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    line-height: 1.7;
+    line-height: 1.75;    /* Enhanced readability */
+    font-weight: 400;     /* Emergency readability */
+    text-rendering: optimizeLegibility; /* Bulletproof design */
+    -webkit-font-smoothing: antialiased; /* Emergency readability */
 }
 
 /* LINKS */
