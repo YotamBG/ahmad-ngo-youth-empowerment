@@ -1,0 +1,5 @@
+Test: concurrent_load
+Success: False
+Timestamp: 2025-08-02T16:09:58.171403
+============================================================
+{'total': 10, 'successful': 0, 'avg_duration': 0.02885735034942627, 'results': [{'agent_id': 3, 'success': False, 'duration': 0.016875505447387695}, {'agent_id': 2, 'success': False, 'duration': 0.022011756896972656}, {'agent_id': 1, 'success': False, 'duration': 0.024157047271728516}, {'agent_id': 7, 'success': False, 'duration': 0.02519536018371582}, {'agent_id': 4, 'success': False, 'duration': 0.026760101318359375}, {'agent_id': 9, 'success': False, 'duration': 0.030580520629882812}, {'agent_id': 5, 'success': False, 'duration': 0.03279829025268555}, {'agent_id': 6, 'success': False, 'duration': 0.03730177879333496}, {'agent_id': 8, 'success': False, 'duration': 0.03660273551940918}, {'agent_id': 10, 'success': False, 'duration': 0.03629040718078613}]}

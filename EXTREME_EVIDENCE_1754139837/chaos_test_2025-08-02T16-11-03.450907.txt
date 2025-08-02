@@ -1,0 +1,5 @@
+Test: chaos_test
+Success: True
+Timestamp: 2025-08-02T16:11:03.450907
+============================================================
+{'total': 5, 'graceful': 5, 'results': [{'interrupted_at': 1.8144889080695106, 'graceful_shutdown': True, 'return_code': 2}, {'interrupted_at': 1.2775511158605217, 'graceful_shutdown': True, 'return_code': 2}, {'interrupted_at': 1.414247772182371, 'graceful_shutdown': True, 'return_code': 2}, {'interrupted_at': 0.9203600174701084, 'graceful_shutdown': True, 'return_code': 2}, {'interrupted_at': 0.6007133977294992, 'graceful_shutdown': True, 'return_code': 2}]}

@@ -1,0 +1,396 @@
+/* ========================================
+   EMERGENCY READABILITY FIXES - 2025 STANDARDS
+   FORCE READABLE TEXT FOR ALL DEVICES
+   ======================================== */
+
+/* RESET AND BASE STYLES */
+* {
+    box-sizing: border-box !important;
+}
+
+html {
+    font-size: 20px !important;
+    scroll-behavior: smooth !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif !important;
+    font-size: 20px !important;
+    line-height: 1.8 !important;
+    color: #1a1a1a !important;
+    background: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 100vh !important;
+    font-weight: 400 !important;
+}
+
+/* FORCE READABLE HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1a1a !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    margin-bottom: 1.5rem !important;
+    word-wrap: break-word !important;
+    font-family: 'Inter', Arial, sans-serif !important;
+}
+
+h1 { 
+    font-size: clamp(2.5rem, 6vw, 4rem) !important; 
+    margin-bottom: 2rem !important;
+}
+h2 { 
+    font-size: clamp(2rem, 5vw, 3rem) !important; 
+    margin-bottom: 1.75rem !important;
+}
+h3 { 
+    font-size: clamp(1.75rem, 4vw, 2.5rem) !important; 
+    margin-bottom: 1.5rem !important;
+}
+h4 { 
+    font-size: clamp(1.5rem, 3vw, 2rem) !important; 
+    margin-bottom: 1.25rem !important;
+}
+h5 { 
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem) !important; 
+    margin-bottom: 1rem !important;
+}
+h6 { 
+    font-size: clamp(1.125rem, 2vw, 1.5rem) !important; 
+    margin-bottom: 1rem !important;
+}
+
+/* FORCE READABLE BODY TEXT */
+p, li, span, div {
+    font-size: clamp(1.125rem, 2.5vw, 1.5rem) !important;
+    line-height: 1.8 !important;
+    color: #1a1a1a !important;
+    margin-bottom: 1.5rem !important;
+    max-width: 70ch !important;
+    font-weight: 400 !important;
+}
+
+/* SPECIAL TEXT ELEMENTS */
+.lead, .intro {
+    font-size: clamp(1.25rem, 3vw, 1.75rem) !important;
+    font-weight: 500 !important;
+    line-height: 1.7 !important;
+    color: #1a1a1a !important;
+}
+
+/* FORCE READABLE LINKS */
+a {
+    color: #006d77 !important;
+    text-decoration: underline !important;
+    font-weight: 500 !important;
+    font-size: inherit !important;
+    transition: all 0.2s ease !important;
+}
+
+a:hover, a:focus {
+    color: #004d52 !important;
+    text-decoration: underline !important;
+    background-color: rgba(0, 109, 119, 0.1) !important;
+}
+
+/* FORCE READABLE BUTTONS */
+button, .btn, input[type="submit"], .btn-primary, .btn-secondary {
+    font-size: clamp(1.125rem, 2.5vw, 1.375rem) !important;
+    padding: 16px 32px !important;
+    background: #006d77 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    font-weight: 600 !important;
+    min-height: 56px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    line-height: 1.4 !important;
+    font-family: inherit !important;
+    transition: all 0.2s ease !important;
+}
+
+button:hover, .btn:hover, input[type="submit"]:hover {
+    background: #004d52 !important;
+    color: white !important;
+    transform: translateY(-1px) !important;
+}
+
+/* CONTAINER AND LAYOUT FIXES */
+.container, .section, main, .main-content {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    padding: 30px 20px !important;
+    background: white !important;
+}
+
+/* NAVIGATION FIXES */
+nav, .nav, .navigation, .navbar {
+    background: white !important;
+    border-bottom: 2px solid #ddd !important;
+    padding: 15px 20px !important;
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+}
+
+nav a, .nav a, .navigation a, .navbar a {
+    color: #1a1a1a !important;
+    font-size: clamp(1.125rem, 2vw, 1.25rem) !important;
+    font-weight: 500 !important;
+    padding: 12px 16px !important;
+    text-decoration: none !important;
+    border-radius: 6px !important;
+    transition: all 0.2s ease !important;
+}
+
+nav a:hover, .nav a:hover, .navigation a:hover {
+    color: #006d77 !important;
+    background: #f0f8f8 !important;
+}
+
+/* HERO SECTION EMERGENCY FIXES */
+.hero, .hero-section {
+    background: linear-gradient(135deg, #006d77, #83c5be) !important;
+    color: white !important;
+    padding: 80px 20px !important;
+    text-align: center !important;
+    min-height: 70vh !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+
+.hero h1, .hero h2, .hero h3, .hero h4, .hero h5, .hero h6 {
+    color: white !important;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4) !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.hero p, .hero div, .hero span, .hero .lead {
+    color: rgba(255,255,255,0.95) !important;
+    font-size: clamp(1.25rem, 3vw, 1.75rem) !important;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.3) !important;
+    max-width: 80ch !important;
+    margin: 0 auto 2rem auto !important;
+}
+
+/* FORM FIXES */
+input, textarea, select {
+    font-size: clamp(1.125rem, 2vw, 1.25rem) !important;
+    padding: 16px !important;
+    border: 2px solid #ddd !important;
+    border-radius: 8px !important;
+    background: white !important;
+    color: #1a1a1a !important;
+    min-height: 56px !important;
+    width: 100% !important;
+    max-width: 500px !important;
+    font-family: inherit !important;
+    transition: all 0.2s ease !important;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #006d77 !important;
+    outline: 3px solid rgba(0, 109, 119, 0.2) !important;
+    outline-offset: 2px !important;
+}
+
+label {
+    font-size: clamp(1.125rem, 2vw, 1.25rem) !important;
+    font-weight: 600 !important;
+    color: #1a1a1a !important;
+    margin-bottom: 8px !important;
+    display: block !important;
+}
+
+/* LIST IMPROVEMENTS */
+ul, ol {
+    padding-left: 2rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+li {
+    margin-bottom: 0.75rem !important;
+    font-size: clamp(1.125rem, 2.5vw, 1.5rem) !important;
+    line-height: 1.8 !important;
+    color: #1a1a1a !important;
+}
+
+/* TABLE FIXES */
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-bottom: 2rem !important;
+    background: white !important;
+}
+
+th, td {
+    padding: 16px !important;
+    text-align: left !important;
+    border-bottom: 1px solid #ddd !important;
+    font-size: clamp(1rem, 2vw, 1.125rem) !important;
+    line-height: 1.6 !important;
+}
+
+th {
+    background: #006d77 !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+}
+
+/* MOBILE RESPONSIVENESS EMERGENCY FIXES */
+@media (max-width: 768px) {
+    html { 
+        font-size: 22px !important; 
+    }
+    
+    body { 
+        font-size: 22px !important; 
+        line-height: 1.9 !important;
+    }
+    
+    h1 { 
+        font-size: clamp(2.75rem, 10vw, 5rem) !important; 
+        line-height: 1.1 !important;
+    }
+    h2 { 
+        font-size: clamp(2.25rem, 8vw, 4rem) !important; 
+        line-height: 1.2 !important;
+    }
+    h3 { 
+        font-size: clamp(2rem, 6vw, 3rem) !important; 
+        line-height: 1.3 !important;
+    }
+    h4 { 
+        font-size: clamp(1.75rem, 5vw, 2.5rem) !important; 
+    }
+    
+    p, li, div, span {
+        font-size: clamp(1.375rem, 4vw, 2rem) !important;
+        max-width: 100% !important;
+        line-height: 1.9 !important;
+        margin-bottom: 2rem !important;
+    }
+    
+    button, .btn, input[type="submit"] {
+        font-size: clamp(1.25rem, 3vw, 1.5rem) !important;
+        padding: 20px 40px !important;
+        min-height: 64px !important;
+        width: 100% !important;
+        max-width: 400px !important;
+    }
+    
+    .container, .section {
+        padding: 20px 15px !important;
+    }
+    
+    nav, .navigation {
+        padding: 20px 15px !important;
+    }
+    
+    nav a, .nav a {
+        font-size: clamp(1.25rem, 3vw, 1.5rem) !important;
+        padding: 16px 20px !important;
+    }
+    
+    input, textarea, select {
+        font-size: clamp(1.25rem, 3vw, 1.5rem) !important;
+        padding: 20px !important;
+        min-height: 64px !important;
+    }
+    
+    label {
+        font-size: clamp(1.25rem, 3vw, 1.5rem) !important;
+        margin-bottom: 12px !important;
+    }
+}
+
+/* FORCE HIGH CONTRAST AND VISIBILITY */
+::selection {
+    background: #006d77 !important;
+    color: white !important;
+}
+
+/* FORCE FOCUS VISIBILITY */
+*:focus {
+    outline: 3px solid #006d77 !important;
+    outline-offset: 2px !important;
+}
+
+/* REMOVE POTENTIALLY PROBLEMATIC STYLES */
+.overlay, .background-overlay, .modal-backdrop {
+    display: none !important;
+}
+
+/* ENSURE IMAGES DON'T BREAK LAYOUT */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 1rem auto !important;
+}
+
+/* ACCESSIBILITY IMPROVEMENTS */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+/* PRINT STYLES */
+@media print {
+    body {
+        font-size: 12pt !important;
+        line-height: 1.5 !important;
+        color: black !important;
+        background: white !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: black !important;
+        page-break-after: avoid !important;
+    }
+    
+    p, li {
+        color: black !important;
+        orphans: 3 !important;
+        widows: 3 !important;
+    }
+    
+    a {
+        color: black !important;
+        text-decoration: underline !important;
+    }
+}
+
+/* FORCE EVERYTHING TO BE READABLE - NUCLEAR OPTION */
+* {
+    color: #1a1a1a !important;
+    background-color: transparent !important;
+}
+
+body, html {
+    background-color: white !important;
+}
+
+.hero, .hero *, .bg-primary, .bg-dark {
+    background: linear-gradient(135deg, #006d77, #83c5be) !important;
+    color: white !important;
+}
+
+.hero * {
+    color: white !important;
+} 

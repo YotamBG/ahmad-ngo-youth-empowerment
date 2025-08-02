@@ -1,0 +1,6 @@
+Requirement: FUNCTIONALITY
+Test: Registration_form
+Success: False
+Timestamp: 2025-08-02T16:03:40.178482
+============================================================
+{'passed': False}

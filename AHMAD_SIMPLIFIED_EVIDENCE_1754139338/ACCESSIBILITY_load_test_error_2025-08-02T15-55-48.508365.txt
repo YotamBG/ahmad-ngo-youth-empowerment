@@ -1,0 +1,6 @@
+Requirement: ACCESSIBILITY
+Test: load_test_error
+Success: False
+Timestamp: 2025-08-02T15:55:48.508365
+============================================================
+{'url': 'https://arabyouthleaders.org', 'error': 'HTTPSConnectionPool(host=\'arabyouthleaders.org\', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7237c491afb0>: Failed to resolve \'arabyouthleaders.org\' ([Errno -2] Name or service not known)"))', 'accessible': False}
