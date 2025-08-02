@@ -1,0 +1,6 @@
+Requirement: CONTENT
+Test: Youth_Empowerment_Program
+Success: True
+Timestamp: 2025-08-02T17:37:38.893706
+============================================================
+{'found': True, 'search_terms': ['youth empowerment', 'educational program']}
