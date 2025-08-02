@@ -1,0 +1,6 @@
+Requirement: ACCESSIBILITY
+Test: load_test
+Success: True
+Timestamp: 2025-08-02T17:18:12.469453
+============================================================
+{'url': 'https://ahmad-ngo.vercel.app', 'status_code': 200, 'load_time': 0.37804555892944336, 'https': True, 'accessible': True, 'content_length': 23799}

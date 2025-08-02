@@ -1,0 +1,6 @@
+Requirement: CONTENT
+Test: Learning_format
+Success: True
+Timestamp: 2025-08-02T17:18:16.228965
+============================================================
+{'found': True, 'search_terms': ['learning', 'format']}

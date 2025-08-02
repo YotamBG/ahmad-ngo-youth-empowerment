@@ -1,0 +1,6 @@
+Requirement: CONTENT
+Test: Educational_tracks
+Success: True
+Timestamp: 2025-08-02T17:18:12.797587
+============================================================
+{'found': True, 'search_terms': ['track', 'education']}
