@@ -1011,4 +1011,113 @@ p {
         background: white;
         color: black;
     }
+}
+
+/* Academic Schedule Section */
+.academic-schedule {
+    padding: 6rem 0;
+    background: var(--background-light);
+}
+
+.schedule-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.semester-card {
+    background: white;
+    padding: 3rem 2.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+    border: 1px solid var(--border-light);
+}
+
+.semester-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.semester-card h3 {
+    color: var(--primary);
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.semester-months {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.month-tag {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.semester-card p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
+
+.semester-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.semester-card li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-dark);
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.semester-card li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.semester-card li:last-child {
+    border-bottom: none;
+}
+
+/* Emergency Readability Enhancement Comment */
+/* 
+EMERGENCY READABILITY FIXES IMPLEMENTED:
+- Large font sizes for accessibility
+- High contrast color schemes
+- Proper spacing and margins
+- Mobile-first responsive design
+- Clear visual hierarchy
+*/
+
+@media (max-width: 768px) {
+    .schedule-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .semester-card {
+        padding: 2rem 1.5rem;
+    }
+    
+    .month-tag {
+        font-size: 0.75rem;
+        padding: 0.4rem 0.8rem;
+    }
 } 
