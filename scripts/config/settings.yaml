@@ -1,0 +1,24 @@
+# Configuration for Intelligent WhatsApp Agent
+cursor:
+  executable_path: "cursor"
+  
+system:
+  platform: "linux"
+  
+logging:
+  level: "INFO"
+  file: "logs/agent.log"
+  
+whatsapp:
+  target_number: "052 339 6883"
+  check_interval: 3
+  
+openai:
+  model: "gpt-4"
+  vision_model: "gpt-4-vision-preview"
+  max_tokens: 200
+  
+screen:
+  screenshot_dir: "screenshots"
+  fail_safe: true
+  pause: 0.1 

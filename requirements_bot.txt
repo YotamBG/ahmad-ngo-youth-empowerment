@@ -1,0 +1,20 @@
+# Core WhatsApp automation requirements
+selenium==4.15.2
+webdriver-manager==4.0.1
+
+# AI decision making (optional but recommended)
+openai>=1.0.0
+
+# Screen control and automation (optional)
+pyautogui==0.9.54
+opencv-python==4.8.1.78
+pillow==10.0.1
+
+# Stealth and detection avoidance (optional but recommended)
+selenium-stealth==1.0.6
+
+# System control
+psutil==5.9.5
+
+# Utils
+python-dotenv==1.0.0 
