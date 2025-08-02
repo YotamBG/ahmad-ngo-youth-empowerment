@@ -1,0 +1,7 @@
+Cycle: 3
+Test: analysis
+Type: output_analysis
+Success: False
+Timestamp: 2025-07-29T20:26:11.606309
+==================================================
+{'success_indicators': 3, 'failure_indicators': 1, 'return_code': 0, 'duration': 8.284864664077759, 'output_sample': 'lenium fallback method...\n❌ Both search methods failed\n\n🎯 RESULT:\nMethod: Manual\nRecommendation: Please search manually at: https://www.google.com/travel/flights?q=Flights%20from%20TLV%20to%20CDG%20on%202025-07-30%20returning%202025-08-02\n\n✅ Travel agent completed successfully\n🔧 Method used: Manual\n'}

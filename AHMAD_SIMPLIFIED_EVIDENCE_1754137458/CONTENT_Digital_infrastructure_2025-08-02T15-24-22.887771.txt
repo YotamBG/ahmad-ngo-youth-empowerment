@@ -1,0 +1,6 @@
+Requirement: CONTENT
+Test: Digital_infrastructure
+Success: False
+Timestamp: 2025-08-02T15:24:22.887771
+============================================================
+{'found': False, 'search_terms': ['digital', 'infrastructure']}
