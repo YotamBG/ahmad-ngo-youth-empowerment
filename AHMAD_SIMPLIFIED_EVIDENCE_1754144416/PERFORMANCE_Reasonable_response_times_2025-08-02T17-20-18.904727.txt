@@ -1,0 +1,6 @@
+Requirement: PERFORMANCE
+Test: Reasonable_response_times
+Success: True
+Timestamp: 2025-08-02T17:20:18.904727
+============================================================
+{'passed': True, 'avg_load': 0.21952505111694337}
