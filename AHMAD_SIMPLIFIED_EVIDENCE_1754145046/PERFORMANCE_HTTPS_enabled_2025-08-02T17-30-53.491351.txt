@@ -1,0 +1,6 @@
+Requirement: PERFORMANCE
+Test: HTTPS_enabled
+Success: True
+Timestamp: 2025-08-02T17:30:53.491351
+============================================================
+{'passed': True, 'avg_load': 0.24319396018981934}
